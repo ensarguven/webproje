@@ -1,0 +1,24 @@
+.imageSlider{
+    height: 600px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hakkimizdaRenk{
+
+    background-color: #f2f2f2d2;
+
+}
+
+.cizgi{
+    border:none;
+    border-top:4px solid #7e2c2c;
+    max-width: 250px;
+    margin:25px auto;
+
+
+}
+
