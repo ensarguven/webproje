@@ -1,0 +1,104 @@
+.imageSlider{
+    height: 679px;
+}
+
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hakkimizdaRenk{
+
+    background-color: #ffdcdc2a;
+
+}
+
+.ekipRenk{
+    background-color: rgba(255, 255, 255, 0.89);
+}
+.cizgi{
+    border:none;
+    border-top:4px solid #7e2c2c;
+    max-width: 250px;
+    margin:25px auto;
+
+
+}
+
+.ekipCard>img:hover{
+    opacity:1;
+    transform: scale(1.1);
+}
+
+
+.galeri{
+    background-color:aliceblue
+}
+
+.figure:hover{
+    opacity: 0.8;
+}
+
+.figure img:hover{
+    transform: scale(1.2);
+
+}
+
+
+.sectionIletisim{
+   
+   
+    background-color:rgb(136, 143, 136);
+    width: 100%;
+    min-height: 679px;
+}
+
+.iletisimForm{
+    position: relative;
+    top: 30px;
+}
+
+.container-fluid{
+    background-color: #111;
+}
+
+#footer{
+    color: #bbb;
+    
+}
+
+.bc{
+    margin: 0%;
+    padding: 0%; 
+    background-color: #000000db;
+    text-align: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto fit, minmax(25opx, 1fr));
+    grid-gap: 30px;
+
+}
+
+.img-gallery img{
+
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+    
+}
+
+
+
+
